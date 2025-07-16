@@ -1,0 +1,20 @@
+2025/07/15 03:39:59 [notice] 1#1: using the "epoll" event method
+2025/07/15 03:39:59 [notice] 1#1: nginx/1.29.0
+2025/07/15 03:39:59 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/15 03:39:59 [notice] 1#1: OS: Linux 6.8.0-1031-aws
+2025/07/15 03:39:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/07/15 03:39:59 [notice] 1#1: start worker processes
+2025/07/15 03:39:59 [notice] 1#1: start worker process 29
+2025/07/15 03:47:06 [error] 29#29: *15 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 59.98.113.226, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "13.126.140.89:8080", referrer: "http://13.126.140.89:8080/"
+2025/07/15 07:44:35 [error] 29#29: *496 open() "/usr/share/nginx/html/locales/locale.json" failed (2: No such file or directory), client: 162.243.40.39, server: localhost, request: "GET /locales/locale.json?locale=../../config/&namespace=database HTTP/1.1", host: "13.126.140.89:8080"
+2025/07/15 08:34:31 [error] 29#29: *598 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 147.182.147.174, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "13.126.140.89", referrer: "http://13.126.140.89:8080/"
+2025/07/15 10:52:05 [error] 29#29: *881 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 165.154.120.223, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "13.126.140.89:8080"
+2025/07/15 10:52:05 [error] 29#29: *882 open() "/usr/share/nginx/html/sitemap.xml" failed (2: No such file or directory), client: 165.154.120.223, server: localhost, request: "GET /sitemap.xml HTTP/1.1", host: "13.126.140.89:8080"
+2025/07/15 10:52:05 [error] 29#29: *883 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 165.154.120.223, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "13.126.140.89:8080"
+2025/07/15 16:36:06 [error] 29#29: *1577 open() "/usr/share/nginx/html/actuator/health" failed (2: No such file or directory), client: 20.65.193.170, server: localhost, request: "GET /actuator/health HTTP/1.1", host: "13.126.140.89:8080"
+2025/07/15 18:31:17 [error] 29#29: *1827 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 199.45.154.147, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "13.126.140.89:8080"
+2025/07/15 18:31:22 [error] 29#29: *1829 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 199.45.154.147, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "13.126.140.89:8080"
+2025/07/15 18:31:30 [error] 29#29: *1832 open() "/usr/share/nginx/html/.well-known/security.txt" failed (2: No such file or directory), client: 199.45.154.147, server: localhost, request: "GET /.well-known/security.txt HTTP/1.1", host: "13.126.140.89:8080"
+2025/07/15 23:55:31 [error] 29#29: *2496 "/usr/share/nginx/html/download/powershell/index.html" is not found (2: No such file or directory), client: 209.38.121.196, server: localhost, request: "GET /download/powershell/ HTTP/1.1", host: "13.126.140.89:8080"
+2025/07/15 23:55:31 [error] 29#29: *2497 open() "/usr/share/nginx/html/get.php" failed (2: No such file or directory), client: 209.38.121.196, server: localhost, request: "GET /get.php HTTP/1.1", host: "13.126.140.89:8080"
+2025/07/16 00:55:21 [error] 29#29: *2619 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 61.0.104.227, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "13.126.140.89:8080", referrer: "http://13.126.140.89:8080/"
